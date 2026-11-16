@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A Letter For You</title>
+
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <main class="stage">
+
+    <!-- ENVELOPE -->
+    <div class="envelope" id="envelope">
+      <div class="back"></div>
+      <div class="preview" id="preview"></div>
+      <div class="pocket"></div>
+      <div class="flap" id="flap"></div>
+      <button class="seal" id="seal" aria-label="Open the letter"></button>
+    </div>
+    <p class="hint" id="hint"></p>
+
+    <!-- LETTER (panels are built by script.js from config.js) -->
+    <article class="paper" id="paper"></article>
+
+    <button class="again" id="again"></button>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="js/letter.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

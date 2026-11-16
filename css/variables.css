@@ -1,0 +1,38 @@
+/* Font (change the name in the URL to use another Google Font) */
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+:root {
+  /* ----- Colors (wood theme) ----- */
+  --bg-light:     #f7f1e8;   /* page background (center) - warm cream */
+  --bg:           #e8dccf;   /* page background (edges) - warm tan */
+  --ink:          #3d2b1f;   /* text color - deep espresso */
+  --accent:       #8b5a2b;   /* title color, seal - warm amber-brown */
+  --accent-light: #c49a6a;   /* seal highlight - soft tan */
+
+  --paper:        #fdfbf7;   /* letter paper - warm cream off-white */
+
+  --env:          #a67c52;   /* envelope main color - warm wood brown */
+  --env-light:    #c9b18f;   /* envelope front highlight - pale tan */
+  --env-flap:     #b88c5a;   /* flap highlight - medium amber */
+  --env-dark:     #7a5c3c;   /* envelope back (inside) - deep wood brown */
+
+  --shadow-color: rgba(40, 30, 20, 0.35);
+
+  /* ----- Fonts ----- */
+  --font-main: "Patrick Hand", "Segoe Script", "Bradley Hand", cursive;
+
+  --font-size-letter: clamp(1.2rem, 4.4vw, 1.5rem);
+  --font-size-title:  2.1em;
+  --font-size-hint:   1.4rem;
+  --font-size-button: 1.4rem;
+  --font-size-preview: clamp(1.6rem, 6vw, 2.2rem);
+  --font-size-seal:   clamp(1.4rem, 4vw, 1.8rem);
+  --line-height-letter: 1.7;
+
+  /* ----- Sizes ----- */
+  --envelope-width: min(88vw, 440px);
+  --paper-width:    min(92vw, 520px);
+  --seal-size:      clamp(50px, 12vw, 65px);
+  --panel-padding:  clamp(20px, 5vw, 35px);
+  --radius:         8px;
+}
