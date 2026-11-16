@@ -1,0 +1,20 @@
+# Claude configuration
+.claude/
+
+# Generated files
+*.log
+.DS_Store
+node_modules/
+.vscode/
+
+# Build artifacts
+*.min.css
+*.min.js
+
+# Environment variables
+.env*
+
+# Temporary files
+*~
+*.tmp
+*.bak
